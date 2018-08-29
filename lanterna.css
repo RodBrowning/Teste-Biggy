@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ 
+	background: rgba(0,0,0,0.2);
+}
+#interno{
+	margin: auto;
+	margin-top: 50px;
+}
+
+header h1, #div-lanterna, #div-button, #status-bateria h2{
+	margin: 3px;
+	text-align: center;
+}
+#status-bateria{
+	width: 90%;
+	margin: auto;
+}
+#status-bateria #barra-bateria-div{
+	display: inline-block;	
+	width: 80%;
+	height: 20px;
+	
+}
+
+#barra-bateria{
+
+	display: inline-block;	
+	width: 100%;
+	height: 20px;
+	background-color: green;
+}
+
+#status-bateria p{	
+	display: inline-block;
+	width: fit-content;
+}
+.botao-ligado{
+	fill: #fff82a;
+}
+.lampada-ligada{
+	fill: #ffb636;
+}
+
+
+.botao-desligado{
+	fill: #2b3b47;
+}
+.lampada-desligada{
+	fill: none;
+}
+
+
+.my-btn
+    {    
+        border: 1px solid black;
+        box-shadow: inset 0 0 20px 0px #00000073;
+        padding: 3px 35px;
+        font-size: 12px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        margin: 5px;
+    }
+ .my-btn:active
+    {
+        background-color: #35d83a;
+    }
+@media only screen and (min-width: 425px ) and (max-width: 1023px){
+	#status-bateria #barra-bateria-div{
+		margin: auto;
+		display: inline-block;	
+		width: 85%;
+		height: 20px;
+	}
+		
+	#status-bateria {
+	    width: 65%;
+	    margin: auto;
+	}
+
+}
+
+@media only screen and (min-width: 1024px){
+	#status-bateria #barra-bateria-div{
+		margin: auto;
+		display: inline-block;	
+		width: 90%;
+		height: 20px;
+	}
+		
+	#status-bateria {
+	    width: 46%;
+	    margin: auto;
+	}
+
+}
