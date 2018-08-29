@@ -72,14 +72,8 @@ function interruptor(){
 
 function carregerBateria(){
 
-	if(status == "false"){
 		var botao = document.getElementById('botao-ligar');
 		var lampada = document.getElementById('lampada');
-		botao.setAttribute('class',"botao-desligado");	
-
-			lampada.setAttribute('class', "lampada-desligada");
-			titulo.innerHTML = "Desligada";
-			body.style.backgroundColor = 'rgba(0,0,0,0.2)';
 
 		var progressBarra = document.getElementById('barra-bateria');
 		var porcentagem = document.getElementById('porcentagem');
@@ -87,6 +81,4 @@ function carregerBateria(){
 		porcent = 100
 		progressBarra.style.width = cargaBateria+"%";
 		porcentagem.innerHTML = cargaBateria;
-		click = 0;
-	}
 }
