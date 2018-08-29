@@ -78,7 +78,6 @@ function carregerBateria(){
 		botao.setAttribute('class',"botao-desligado");	
 
 			lampada.setAttribute('class', "lampada-desligada");
-			status = 'false';
 			titulo.innerHTML = "Desligada";
 			body.style.backgroundColor = 'rgba(0,0,0,0.2)';
 
